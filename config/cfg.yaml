@@ -1,0 +1,18 @@
+exp_name: 
+  default_exp_name: "exp"
+  add_timestamp: False
+
+seed: 42
+
+enable_pause: True
+
+concurrent_max_worker: None
+# concurrent_max_worker: 4
+
+vae_decode_batch_size: 20
+
+defaults:
+  - task: test
+  # - pipeline: sd-turbo
+  - _self_
+  

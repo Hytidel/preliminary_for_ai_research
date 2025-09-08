@@ -1,0 +1,33 @@
+# keys
+keys.md
+
+# tmp file
+tmp
+outputs
+multirun
+__pycache__
+*/__pycache__
+
+# dataset
+# mini_diffusers.datasets
+
+# script
+# script/watch_nvidia_smi.sh
+# script/update_code.sh
+# script/zip_code.sh
+# script/tmp_*.sh
+# script/git_push.sh
+# script/git_pull.sh
+
+# others
+pip_list.txt
+*.zip
+discarded
+
+# TODO: remove
+# config/dataset/
+# config/metric_model/
+# config/model/
+# config/pipeline/
+# config/reward_model/
+# _config/
