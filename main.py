@@ -33,7 +33,7 @@ def run_task(
     #     do_ddim_inversion(cfg)
 
     else:
-        raise NotImplementedError(
+        raise NotImplementedError(  
             f"Unsupported task: `{task_name}`. "
         )
 
